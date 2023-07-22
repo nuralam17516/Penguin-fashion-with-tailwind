@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penguin Fashion</title>
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -39,8 +38,8 @@
 <body>
     <header class="bg-amber-100 px-4 lg:px-32  py-24">
         <nav class="flex items-center justify-between m-4">
-            <div class="w-20 h-4">
-                <img src="./icons/logo.png" alt="">
+            <div>
+                <img class="w-64" src="./icons/logo.png" alt="">
             </div>
             <div class="space-x-3">
                 <a href="">Home</a>
@@ -57,14 +56,11 @@
                     OF WINTER
                 </h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <button
-                    class="bg-gradient-to-r from-[#A4BC46] to-blue-500 text-white uppercase   py-5 px-6 rounded-lg font-semibold flex">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
-                        stroke="currentColor" className="w-6 h-6 inline">
-                        <path strokeLinecap="round" strokeLinejoin="round"
-                            d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
-                    </svg>
-                    Buy now</button>
+                    <button class="bg-gradient-to-r from-[#A4BC46] to-blue-500 text-white uppercase px-12 py-8 rounded-xl flex justify-around font-semibold">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mr-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                          </svg>
+                          Buy now</button>
             </div>
             <div>
                 <img src="./images/model.png" alt="">
@@ -81,7 +77,7 @@
                 <!-- card-1 -->
                 <div class="drop-shadow-lg space-y-5">
                     <div class="bg-card p-5 rounded-xl">
-                        <img class="w-52" src="/images/jacket-1.png" alt="">
+                        <img class="w-52 mx-auto" src="/images/jacket-1.png" alt="">
                     </div>
                     <h3 class="text-2xl font-bold">Yellow Coat Jacket</h3>
                     <p>Lorem Ipsum is simply dummy text of the
@@ -89,12 +85,10 @@
                     <div class="flex items-center justify-between">
                         <h2 class="text-2xl font-extrabold text-[#FABE4C]">$234</h2>
                         <button
-                            class="bg-gradient-to-r from-[#A4BC46] to-blue-500 text-white uppercase   py-5 px-6 rounded-lg font-semibold flex">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
-                                stroke="currentColor" className="w-6 h-6 inline">
-                                <path strokeLinecap="round" strokeLinejoin="round"
-                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
-                            </svg>
+                            class="bg-gradient-to-r from-[#A4BC46] to-blue-500 text-white uppercase px-12 py-8 rounded-xl flex justify-around font-semibold">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mr-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                              </svg>
                             Buy now
                         </button>
                     </div>
@@ -102,7 +96,7 @@
                 <!-- card-2 -->
                 <div class="drop-shadow-lg  space-y-5">
                     <div class="bg-card p-5 rounded-xl space-y-5">
-                        <img class="w-52" src="/images/jacket-2.png" alt="">
+                        <img class="w-52 mx-auto" src="/images/jacket-2.png" alt="">
                     </div>
                     <h3 class="text-2xl font-bold">Ladies Jacket </h3>
                     <p>Lorem Ipsum is simply dummy text of the
@@ -110,12 +104,10 @@
                     <div class="flex items-center justify-between">
                         <h2 class="text-2xl font-extrabold text-[#FABE4C]">$234</h2>
                         <button
-                            class="bg-gradient-to-r from-[#A4BC46] to-blue-500 text-white uppercase   py-5 px-6 rounded-lg font-semibold flex">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
-                                stroke="currentColor" className="w-6 h-6 inline">
-                                <path strokeLinecap="round" strokeLinejoin="round"
-                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
-                            </svg>
+                            class="bg-gradient-to-r from-[#A4BC46] to-blue-500 text-white uppercase px-12 py-8 rounded-xl flex justify-around font-semibold">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mr-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                              </svg>
                             Buy now
                         </button>
                     </div>
@@ -123,7 +115,7 @@
                 <!-- card-3 -->
                 <div class="drop-shadow-lg space-y-5">
                     <div class="bg-card p-5 rounded-xl">
-                        <img class="w-52" src="/images/jacket-3.png" alt="">
+                        <img class="w-52 mx-auto" src="/images/jacket-3.png" alt="">
                     </div>
                     <h3 class="text-2xl font-bold">Woman Leather Jacket </h3>
                     <p>Lorem Ipsum is simply dummy text of the
@@ -131,12 +123,10 @@
                     <div class="flex items-center justify-between">
                         <h2 class="text-2xl font-extrabold text-[#FABE4C]">$234</h2>
                         <button
-                            class="bg-gradient-to-r from-[#A4BC46] to-blue-500 text-white uppercase   py-5 px-6 rounded-lg font-semibold flex">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
-                                stroke="currentColor" className="w-6 h-6 inline">
-                                <path strokeLinecap="round" strokeLinejoin="round"
-                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
-                            </svg>
+                            class="bg-gradient-to-r from-[#A4BC46] to-blue-500 text-white uppercase px-12 py-8 rounded-xl flex justify-around font-semibold">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mr-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                              </svg>
                             Buy now
                         </button>
                     </div>
@@ -153,7 +143,7 @@
                 <!-- card-1 -->
                 <div class="drop-shadow-lg space-y-5">
                     <div class="bg-card p-5 rounded-xl">
-                        <img class="w-52" src="/images/jacket-4.png" alt="">
+                        <img class="w-52 mx-auto" src="/images/jacket-4.png" alt="">
                     </div>
                     <h3 class="text-2xl font-bold">Snowboard Jacket Mens</h3>
                     <p>Lorem Ipsum is simply dummy text of the
@@ -161,12 +151,10 @@
                     <div class="flex items-center justify-between">
                         <h2 class="text-2xl font-extrabold text-[#FABE4C]">$234</h2>
                         <button
-                            class="bg-gradient-to-r from-[#A4BC46] to-blue-500 text-white uppercase   py-5 px-6 rounded-lg font-semibold flex">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
-                                stroke="currentColor" className="w-6 h-6 inline">
-                                <path strokeLinecap="round" strokeLinejoin="round"
-                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
-                            </svg>
+                            class="bg-gradient-to-r from-[#A4BC46] to-blue-500 text-white uppercase px-12 py-8 rounded-xl flex justify-around font-semibold">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mr-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                              </svg>
                             Buy now
                         </button>
                     </div>
@@ -174,7 +162,7 @@
                 <!-- card-2 -->
                 <div class="drop-shadow-lg  space-y-5">
                     <div class="bg-card p-5 rounded-xl space-y-5">
-                        <img class="w-52" src="/images/jacket-5.png" alt="">
+                        <img class="w-52 mx-auto" src="/images/jacket-5.png" alt="">
                     </div>
                     <h3 class="text-2xl font-bold">Man Leather Jackets</h3>
                     <p>Lorem Ipsum is simply dummy text of the
@@ -182,12 +170,10 @@
                     <div class="flex items-center justify-between">
                         <h2 class="text-2xl font-extrabold text-[#FABE4C]">$234</h2>
                         <button
-                            class="bg-gradient-to-r from-[#A4BC46] to-blue-500 text-white uppercase   py-5 px-6 rounded-lg font-semibold flex">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
-                                stroke="currentColor" className="w-6 h-6 inline">
-                                <path strokeLinecap="round" strokeLinejoin="round"
-                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
-                            </svg>
+                            class="bg-gradient-to-r from-[#A4BC46] to-blue-500 text-white uppercase px-12 py-8 rounded-xl flex justify-around font-semibold">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mr-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                              </svg>
                             Buy now
                         </button>
                     </div>
@@ -195,7 +181,7 @@
                 <!-- card-3 -->
                 <div class="drop-shadow-lg space-y-5">
                     <div class="bg-card p-5 rounded-xl">
-                        <img class="w-52" src="/images/jacket-6.png" alt="">
+                        <img class="w-52 mx-auto" src="/images/jacket-6.png" alt="">
                     </div>
                     <h3 class="text-2xl font-bold">Man Casual Jackets</h3>
                     <p>Lorem Ipsum is simply dummy text of the
@@ -203,12 +189,10 @@
                     <div class="flex items-center justify-between">
                         <h2 class="text-2xl font-extrabold text-[#FABE4C]">$234</h2>
                         <button
-                            class="bg-gradient-to-r from-[#A4BC46] to-blue-500 text-white uppercase   py-5 px-6 rounded-lg font-semibold flex">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5}
-                                stroke="currentColor" className="w-6 h-6 inline">
-                                <path strokeLinecap="round" strokeLinejoin="round"
-                                    d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
-                            </svg>
+                            class="bg-gradient-to-r from-[#A4BC46] to-blue-500 text-white uppercase px-12 py-8 rounded-xl flex justify-around font-semibold">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mr-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
+                              </svg>
                             Buy now
                         </button>
                     </div>
@@ -216,7 +200,7 @@
             </div>
         </div>
         <!-- support section start now -->
-        <div class="flex justify-around items-center gap-6 m-20">
+        <div class="flex flex-col lg:flex-row justify-around items-center space-y-4 lg:gap-6 m-10 lg:m-20">
             <div class="space-y-5">
                 <div class="flex items-center gap-4 rounded-s-2xl bg-slate-50 shadow-lg p-3">
                     <div class="w-20">
